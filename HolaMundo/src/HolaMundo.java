@@ -9,7 +9,8 @@ muchas lineas de comentarios
 public class HolaMundo {
 
     public static void main(String args[]) {
-        /*System.out.println("Hola Mundo desde Java");
+        /*
+        System.out.println("Hola Mundo desde Java");
         /Variables P1
         Defino Variable como Entero
         int miVariable = 10;
@@ -31,13 +32,15 @@ public class HolaMundo {
         //soutv + tab
         System.out.println("miVariableEntera2 = " + miVariableEntera2);
         System.out.println("miVariableCadena2 = " + miVariableCadena2);
-
+        */
+        
         //Reglas para definir una variable en Java
         //Variables se definen en formato camelCase
         //No se pueden utilizar numeros como primer caracter de nuestra variable
         //No puede tener caracteres especiales (exepto simbolo dolar $)
         //Si puede tener guion bajo y acento, pero no es recomendable
         
+        /*
         //Ejercicio de Concatenacion
          var usuario = "Jorge";
         var titulo = "Ingeniero";
@@ -72,8 +75,9 @@ public class HolaMundo {
         System.out.println("Proporcione el autor: ");
         var autor2 = entrada2.nextLine();
         System.out.println(titulo2 + "  fue escrito por " + autor2);
+        */
         
-
+        /*
         //Clase 4: 
         //Tipos primitivos Enteros
         //Tipo byte (8bit)
@@ -99,7 +103,7 @@ public class HolaMundo {
         System.out.println("numEnteroLong = " + numEnteroLong);
         System.out.println("Valor minimo del Long: " + Long.MIN_VALUE);
         System.out.println("Valor maximo del long: " +Long.MAX_VALUE);
-        */
+        
         //Tipos primitivos Flotantes
         //Tipo float
         float numFloat = 3.4028235E38F; //Colocamos F al final de la literal para convertirlo a flotante
@@ -113,6 +117,42 @@ public class HolaMundo {
         System.out.println("numDouble = " + numDouble);
         System.out.println("Valor minimo del float: " + Double.MIN_VALUE);
         System.out.println("Valor maximo del float: " + Double.MAX_VALUE);
+         */
         
+        /*
+        //CLASE 5
+        //Inferencia de tipos var y tipos primitivos
+        var numEntero = 20;//Por defecto las literales sin punto son de tipo int\
+        System.out.println("numEntero = " + numEntero);
+        var numFloat = 10.0F; //Con el punto se trasnforma en tipo double
+        System.out.println("numFloat = " + numFloat);
+        var numDouble = 10.0; 
+        System.out.println("numDouble = " + numDouble);
+        
+        //Tipos primitivos char
+        char miVariableChar = 'a';
+        System.out.println("miVariableChar = " + miVariableChar);
+        
+        System.out.println("Asignamos char como variable");
+        char varCaracter = '\u0024'; //Indicamos a java la asignacion con el codigo Unicode
+        System.out.println("varCaracter = " + varCaracter);
+        char varCaracterDecimal = 36; //Indicamos a java la asignacion con el codigo Decimal
+        System.out.println("varCaracterDecimal = " + varCaracterDecimal);
+        char varCaracterSimbolo = '$'; //Un Caracter especial
+        System.out.println("varCaracterSimbolo = " + varCaracterSimbolo);
+        System.out.println("\n");
+        System.out.println("Usamos var para que Java decida autmaticamente");    
+        var varCaracter1 = '\u0024'; 
+        System.out.println("varCaracter1 = " + varCaracter1);
+        var varCaracterDecimal1 = 36; //Java lo detecta como un tipo int
+        System.out.println("varCaracterDecimal1 = " + varCaracterDecimal1);
+        var varCaracterSimbolo1 = '$';
+        System.out.println("varCaracterSimbolo1 = " + varCaracterSimbolo1);
+        
+        int varEnteroChar = '$'; //Muestra el valor decimal asociado al simbolo
+        System.out.println("varEnteroChar = " + varEnteroChar);
+        int caracterChar = 'b';
+        System.out.println("caracterChar = " + caracterChar);
+        */
     }
 }
