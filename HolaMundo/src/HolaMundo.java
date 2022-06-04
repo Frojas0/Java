@@ -7,7 +7,7 @@ Apertura y cierre de comentario para escribir
 muchas lineas de comentarios
  */
 public class HolaMundo {
-
+    
     public static void main(String args[]) {
         /*
         System.out.println("Hola Mundo desde Java");
@@ -32,14 +32,13 @@ public class HolaMundo {
         //soutv + tab
         System.out.println("miVariableEntera2 = " + miVariableEntera2);
         System.out.println("miVariableCadena2 = " + miVariableCadena2);
-        */
-        
+         */
+
         //Reglas para definir una variable en Java
         //Variables se definen en formato camelCase
         //No se pueden utilizar numeros como primer caracter de nuestra variable
         //No puede tener caracteres especiales (exepto simbolo dolar $)
         //Si puede tener guion bajo y acento, pero no es recomendable
-        
         /*
         //Ejercicio de Concatenacion
          var usuario = "Jorge";
@@ -75,9 +74,8 @@ public class HolaMundo {
         System.out.println("Proporcione el autor: ");
         var autor2 = entrada2.nextLine();
         System.out.println(titulo2 + "  fue escrito por " + autor2);
-        */
-        
-        /*
+         */
+ /*
         //Clase 4: 
         //Tipos primitivos Enteros
         //Tipo byte (8bit)
@@ -118,8 +116,7 @@ public class HolaMundo {
         System.out.println("Valor minimo del float: " + Double.MIN_VALUE);
         System.out.println("Valor maximo del float: " + Double.MAX_VALUE);
          */
-        
-        /*
+ /*
         //CLASE 5
         //Inferencia de tipos var y tipos primitivos
         var numEntero = 20;//Por defecto las literales sin punto son de tipo int\
@@ -153,8 +150,8 @@ public class HolaMundo {
         System.out.println("varEnteroChar = " + varEnteroChar);
         int caracterChar = 'b';
         System.out.println("caracterChar = " + caracterChar);
-        */
-        /*
+         */
+ /*
         //CLASE 6
         //Tipos primitivos tipos booleanos
         boolean varBool = false;
@@ -176,8 +173,8 @@ public class HolaMundo {
         else{
             System.out.println("Eres menor de edad");
         }
-        */
-        /*
+         */
+ /*
         //Conversion de tipos primitivos
         var edad = Integer.parseInt("20"); //Convierte la variable de tipo string a integer
         System.out.println("edad = " + (edad + 1));
@@ -190,8 +187,8 @@ public class HolaMundo {
         System.out.println("Digite su edad: ");
         edad = Integer.parseInt(entrada.nextLine());
         System.out.println("edad = " + edad);
-        */
-         
+         */
+ /*
         //Conversion de tipos primitivos en Java Parte 2
         var edadTexto = String.valueOf(10);
         System.out.println("edadTexto = " + edadTexto);
@@ -201,7 +198,55 @@ public class HolaMundo {
         
         var entrada = new Scanner(System.in);
         System.out.println("Digite un caracter");
-        fraseChar = entrada.nextLine().charAt(1);
+        fraseChar = entrada.nextLine().charAt(0);
         System.out.println("fraseChar = " + fraseChar);
+         */
+         /*
+        //Inicializacion de variables
+        int num1 = 5, num2 = 4;
+        var solucion = num1 + num2;
+        System.out.println("solucion de la suma = " + solucion);
+        
+        solucion = num1 - num2;
+        System.out.println("solucion de la resta = " + solucion);
+        
+        solucion = num1 * num2;
+        System.out.println("solucion del producto = " + solucion);
+        
+        solucion = num1 / num2;
+        System.out.println("solucion de la division = " + solucion); //resultado de tipo entero
+        
+        var solucion2 = 3.4 / num2;
+        System.out.println("solucion2 de la division= " + solucion2); //resultado de tipo float
+        
+        solucion = num1 % num2; //Guarda el residuo entero de la division
+        System.out.println("solucion = " + solucion); 
+        
+        if (5 % 2 == 0)
+            System.out.println("Es un numero par");
+        else
+            System.out.println("Es un numero impar");
+        */
+        
+         
+         int varNum1 = 1, varNum2 = 4, varNum5 = 3;
+         int varNum3 = varNum1 + 6 - varNum2 ; //una operacion
+         System.out.println("varNum3 = " + varNum3);
+         
+         System.out.println("+=");
+         varNum1 += 2; //varNum1 = varNum1 +2;
+         System.out.println("varNum1 = " + varNum1 );
+         
+         System.out.println("-=");
+         varNum2 -= 2;//varNum2 = varNum2 - 2;
+         System.out.println("varNum2 = " + varNum2);
+         
+         System.out.println("*=");
+         varNum3 *= 4;//varNum3 = varNum3 * 4;
+         System.out.println("varNum3 = " + varNum3);
+         
+         System.out.println("%=");
+         varNum5 %= 6;// varnum5 = vRNum5 % 6;
+         System.out.println("varNum5 = " + varNum5);
     }
 }
