@@ -7,7 +7,7 @@ Apertura y cierre de comentario para escribir
 muchas lineas de comentarios
  */
 public class HolaMundo {
-    
+
     public static void main(String args[]) {
         /*
         System.out.println("Hola Mundo desde Java");
@@ -41,14 +41,15 @@ public class HolaMundo {
         //Si puede tener guion bajo y acento, pero no es recomendable
         /*
         //Ejercicio de Concatenacion
-         var usuario = "Jorge";
+        var usuario = "Jorge";
         var titulo = "Ingeniero";
         var union = titulo + " " + usuario;
         System.out.println("union = " + union);
         var a = 8;
         var b = 4;
         System.out.println(usuario + (a + b));
-        
+        */
+        /*
         //Ejercicio: Caracteres especiales con java
         var nombre = "Jacinto";
         System.out.println("Nueva Linea: \n" + nombre); //Salto de linea
@@ -57,7 +58,8 @@ public class HolaMundo {
         System.out.println("Retroceso: \b" + nombre); //Retroceso
         System.out.println("Comillas Simples: \'" + nombre + "\'"); //Comillas Simples
         System.out.println("Comillas Dobles:  \"" + nombre + "\""); //Comillas Dobles
-        
+        */
+        /*
         //Clase Scanner
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite su nombre: ");
@@ -66,7 +68,8 @@ public class HolaMundo {
         System.out.println("Escriba su profesion: ");
         var titulo2 = entrada.nextLine();
         System.out.println("Resultado: " + titulo2 + " " + usuario2);
-        
+        */
+        /*
         //Ejercicio clase Scanner
         Scanner entrada2 = new Scanner(System.in);
         System.out.println("Escriba su titulo: ");
@@ -74,8 +77,8 @@ public class HolaMundo {
         System.out.println("Proporcione el autor: ");
         var autor2 = entrada2.nextLine();
         System.out.println(titulo2 + "  fue escrito por " + autor2);
-         */
- /*
+        */
+        /*
         //Clase 4: 
         //Tipos primitivos Enteros
         //Tipo byte (8bit)
@@ -201,7 +204,7 @@ public class HolaMundo {
         fraseChar = entrada.nextLine().charAt(0);
         System.out.println("fraseChar = " + fraseChar);
          */
-         /*
+ /*
         //Inicializacion de variables
         int num1 = 5, num2 = 4;
         var solucion = num1 + num2;
@@ -226,9 +229,8 @@ public class HolaMundo {
             System.out.println("Es un numero par");
         else
             System.out.println("Es un numero impar");
-        */
-        
-         
+         */
+ /*
          int varNum1 = 1, varNum2 = 4, varNum5 = 3;
          int varNum3 = varNum1 + 6 - varNum2 ; //una operacion
          System.out.println("varNum3 = " + varNum3);
@@ -248,5 +250,134 @@ public class HolaMundo {
          System.out.println("%=");
          varNum5 %= 6;// varnum5 = vRNum5 % 6;
          System.out.println("varNum5 = " + varNum5);
+         */
+ /*
+        //Clase 8
+        //Operadores Unarios: Cambio de Signo
+        var varA = 7;
+        var VarB = -varA;
+        System.out.println("varA = " + varA);
+        System.out.println("VarB = " + VarB); //El resultado sera un numero negativo
+        
+        //Operador de negacion
+        var varC = true; //literal de tipo boolean por defecto
+        var varD = !varC; //Aqui esta invirtiendo el valor
+        System.out.println("varC = " + varC);
+        System.out.println("varD = " + varD);
+        
+        //Operadores unarios de incremento: Preincremento
+        var varE = 9; //Se modifica su valor
+        System.out.println("varE = " + varE);
+        var varF = ++varE; //Simbolo antes de la variable
+        //Primero se incrementa la variable y despues se usa su valor
+        System.out.println("varE = " + varE); //Se incrementa en la unidad
+        System.out.println("varF = " + varF); //Va a sumar uno
+        
+        //Post incremento (El simbolo va despues de la variable)
+        var  varG = 3; //El ingremento afectara solo a la variable G
+        System.out.println("varG = " + varG);
+        var varH = varG++; //Primero el valor de la variable y luego el incremento
+        System.out.println("varG = " + varG);
+        System.out.println("varH = " + varH);
+        
+        //Operadores Unarios de decremento: Predecremento
+        var varI = 4;
+        var varJ = --varI;
+        System.out.println("varI = " + varI); //La variable ya esta con decremento
+        System.out.println("varJ = " + varJ);
+        
+        //Postdecremento
+        var varK = 8;
+        var VarL = varK--; //Primero el valor de la variable, luego el decremento
+        System.out.println("varK = " + varK); //Aqui va con decremento
+        System.out.println("VarL = " + VarL); //Aqui va sin decremento
+         */
+        /*
+        //Operadores de igualdad y Relacionales
+        var aNum = 5;
+        var bNum = 4;
+        var cNum = (aNum == bNum); //Pregunta si las variables son iguales, regresa un valor boolean.
+        System.out.println("cNum = " + cNum);
+
+        var dNum = aNum != bNum; //Pregunta si las variables son diferentes, regresa un valor boolean.
+        System.out.println("dNum = " + dNum);
+
+        var cadenaA = "Hello";
+        var cadenaB = "Bye Bye";
+        var cVar = cadenaA == cadenaB; //Comparacion de referencia de objetos
+        System.out.println("cVar = " + cVar);
+
+        var fVar = cadenaA.equals(cadenaB); //Comprueba el contenido del interior de la cadena
+        System.out.println("fVar = " + fVar);
+
+        var gVar = aNum >= bNum; //< <= == != >= > Distintos operadores relacionales
+        System.out.println("gVar = " + gVar);
+
+        //!= Son diferentes?
+        //== Son iguales?
+        if (aNum % 2 == 0) { //utilizando operador de igualdad en estructura if
+            System.out.println("El numero es par");
+        } else {
+            System.out.println("El numero es impar");
+        }
+        
+        var edad =30;
+        var adulto = 18;
+        if (edad >= adulto){
+            System.out.println("Es mayor de edad");
+        } else {
+            System.out.println("No es mayot de edad");
+        }
+        */
+        /*
+        //Operadores condicional and (&&)
+        var valorA = 7;
+        var valorMinimo = 0; //Creamos un rango del 0 al 10
+        var valorMaximo = 10;
+        var respuesta = valorA >= 0 && valorA <= 10;  
+        
+        if (respuesta == true){
+            System.out.println("El numero esta dentro del rango");
+        } else {
+            System.out.println("El numero esta fuera del rango");
+        }
+        
+        var vacaciones = true;
+        var diaLibre = false;
+        if (vacaciones || diaLibre){
+            System.out.println("El padre puede asistir al juego de su hijo");
+        } else{
+            System.out.println("El padre no puede asistir al juego");
+        }
+        */
+        
+        /*
+        //Operador Ternario: 
+        //Se da una condicion y da dos posibles respuestas como esta abajo
+        var resultadoT = (5 >= 4) ? "Verdadero" : "Falso";
+        System.out.println("resultadoT = " + resultadoT);
+        
+        var numeroT = 7;
+        resultadoT = (numeroT % 2 == 0) ? "Es Par" : "Es Impar";
+        System.out.println("resultadoT = " + resultadoT );
+        */
+        /*
+        //Ejercicio Prioridad de operadors
+        var x = 5;
+        var y = 10;
+        var z = ++x + y--;
+        System.out.println("x = " + x); //6
+        System.out.println("y = " + y); //9
+        System.out.println("z = " + z); //16
+        
+        var solucionAritmetica = 4 + 5 * 6 / 3;
+        System.out.println("solucionAritmetica = " + solucionAritmetica);
+        
+        solucionAritmetica = (4 + 5) + 5 * 6 / 3;
+        System.out.println("solucionAritmetica = " + solucionAritmetica);
+        */
+        
+        
     }
+
 }
