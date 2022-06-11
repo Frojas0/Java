@@ -23,7 +23,7 @@ public class Ejercicio7 {
     {
         System.out.println("Ingrese el valor del auto " + i + ":");
         valorAuto = Float.parseFloat(entrada.nextLine()); 
-        porcAuto = (float) (valorAuto * 0.05); //Calculo el 5% de comision por auto
+        porcAuto = (float) (valorAuto * 0.05);  //Calculo el 5% de comision por auto
         porAutoTotal = porAutoTotal + porcAuto; //Acumulo la comision del valor del auto a pagar
     }
         salarioTotal = salario + porAutoTotal + (comision*cantAuto);

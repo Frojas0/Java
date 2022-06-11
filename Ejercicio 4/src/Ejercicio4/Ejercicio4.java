@@ -10,6 +10,7 @@ public class Ejercicio4 {
         Scanner entrada = new Scanner(System.in);
         
         int num1, num2;
+        
         System.out.println("Ingrese el primer numero: ");
         num1 = Integer.parseInt(entrada.nextLine());
         System.out.println("Ingrese el segundo numero: ");
@@ -17,5 +18,4 @@ public class Ejercicio4 {
         var mayor = (num1 > num2) ? "El primer numero es mayor" : "El segundo numero es mayor";
         System.out.println("mayor = " + mayor);
     }
-    
 }
