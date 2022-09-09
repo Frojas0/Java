@@ -17,8 +17,11 @@
       <module fileurl="file://$PROJECT_DIR$/ejercicio08/ejercicio08.iml" filepath="$PROJECT_DIR$/ejercicio08/ejercicio08.iml" />
       <module fileurl="file://$PROJECT_DIR$/ejercicio09/ejercicio09.iml" filepath="$PROJECT_DIR$/ejercicio09/ejercicio09.iml" />
       <module fileurl="file://$PROJECT_DIR$/ejercicio10/ejercicio10.iml" filepath="$PROJECT_DIR$/ejercicio10/ejercicio10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leccion02/ejercicioCiclos01/ejercicioCiclos01.iml" filepath="$PROJECT_DIR$/leccion02/ejercicioCiclos01/ejercicioCiclos01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leccion02/ejercicioCiclos02/ejercicioCiclos02.iml" filepath="$PROJECT_DIR$/leccion02/ejercicioCiclos02/ejercicioCiclos02.iml" />
       <module fileurl="file://$PROJECT_DIR$/leccion01/leccion01.iml" filepath="$PROJECT_DIR$/leccion01/leccion01.iml" />
       <module fileurl="file://$PROJECT_DIR$/leccion02/leccion02.iml" filepath="$PROJECT_DIR$/leccion02/leccion02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leccionClaseObjetos/leccionClaseObjetos.iml" filepath="$PROJECT_DIR$/leccionClaseObjetos/leccionClaseObjetos.iml" />
     </modules>
   </component>
 </project>
