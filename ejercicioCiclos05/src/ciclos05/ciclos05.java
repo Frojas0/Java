@@ -13,7 +13,7 @@ public class ciclos05 {
         int ran, num, cont = 0;
         JOptionPane.showMessageDialog(null,"Intente adivinar el numero Aleatoreo entre 0-100");
         ran = (int) (Math.random()*101); // math.random para dar un numero aleatoreo entre el rango dado
-        System.out.println("N Aleatoreo = " + ran);
+        //System.out.println("N Aleatoreo = " + ran);
 
         do{
             num = Integer.parseInt(JOptionPane.showInputDialog("Que numero es?"));

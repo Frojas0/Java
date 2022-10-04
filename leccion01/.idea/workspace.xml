@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e8b44b7-3ed7-4805-a80a-b80e344bbaa8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ejercicioCiclos06/ejercicioCiclos06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicioCiclos06/src/ciclos06/ciclos06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leccion04/leccion04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leccion04/src/operaciones/aritmetica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leccionClaseObjetos/src/clases/pruebaPersona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leccion01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccion02/ejercicioCiclos01/ejercicioCiclos01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCiclos01/ejercicioCiclos01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccion02/ejercicioCiclos01/src/ciclos/ciclos01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCiclos01/src/ciclos/ciclos01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccion02/ejercicioCiclos01/src/ciclos/ejercicio01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCiclos01/src/ciclos/ejercicio01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccion02/ejercicioCiclos02/ejercicioCiclos02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCiclos02/ejercicioCiclos02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccion02/ejercicioCiclos02/src/ciclos/ciclos02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCiclos02/src/ciclos/ciclos02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccion02/ejercicioCiclos02/src/ciclos/ejercicio02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCiclos02/src/ciclos/ejercicio02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccionClaseObjetos/ejercicioCiclos03/ejercicioCiclos03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCiclos03/ejercicioCiclos03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccionClaseObjetos/ejercicioCiclos03/src/ciclos03/ciclos03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCiclos03/src/ciclos03/ciclos03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccionClaseObjetos/ejercicioCiclos04/ejercicioCiclos04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCiclos04/ejercicioCiclos04.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccionClaseObjetos/ejercicioCiclos04/src/ciclos04/ciclos04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCiclos04/src/ciclos04/ciclos04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccionClaseObjetos/ejercicioCiclos05/ejercicioCiclos05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCiclos05/ejercicioCiclos05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccionClaseObjetos/ejercicioCiclos05/src/ciclos05/ciclos05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicioCiclos05/src/ciclos05/ciclos05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leccionClaseObjetos/src/clases/persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leccionClaseObjetos/src/clases/persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ejercicioCiclos05/ciclos05/ciclos05.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2FeVksCCzhVUphONC3KOECrdIBz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Facu/Programacion/Java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e8b44b7-3ed7-4805-a80a-b80e344bbaa8" name="Changes" comment="" />
+      <created>1664852682994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664852682994</updated>
+      <workItem from="1664852686407" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

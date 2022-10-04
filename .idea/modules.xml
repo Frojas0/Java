@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/leccion04/Aritmetica/Aritmetica.iml" filepath="$PROJECT_DIR$/leccion04/Aritmetica/Aritmetica.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/leccion02/cicloWhile/cicloWhile.iml" filepath="$PROJECT_DIR$/leccion02/cicloWhile/cicloWhile.iml" />
       <module fileurl="file://$PROJECT_DIR$/condicionalEjercicio01/condicionalEjercicio01.iml" filepath="$PROJECT_DIR$/condicionalEjercicio01/condicionalEjercicio01.iml" />
@@ -17,14 +18,18 @@
       <module fileurl="file://$PROJECT_DIR$/ejercicio08/ejercicio08.iml" filepath="$PROJECT_DIR$/ejercicio08/ejercicio08.iml" />
       <module fileurl="file://$PROJECT_DIR$/ejercicio09/ejercicio09.iml" filepath="$PROJECT_DIR$/ejercicio09/ejercicio09.iml" />
       <module fileurl="file://$PROJECT_DIR$/ejercicio10/ejercicio10.iml" filepath="$PROJECT_DIR$/ejercicio10/ejercicio10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/leccion02/ejercicioCiclos01/ejercicioCiclos01.iml" filepath="$PROJECT_DIR$/leccion02/ejercicioCiclos01/ejercicioCiclos01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/leccion02/ejercicioCiclos02/ejercicioCiclos02.iml" filepath="$PROJECT_DIR$/leccion02/ejercicioCiclos02/ejercicioCiclos02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/leccionClaseObjetos/ejercicioCiclos03/ejercicioCiclos03.iml" filepath="$PROJECT_DIR$/leccionClaseObjetos/ejercicioCiclos03/ejercicioCiclos03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/leccionClaseObjetos/ejercicioCiclos04/ejercicioCiclos04.iml" filepath="$PROJECT_DIR$/leccionClaseObjetos/ejercicioCiclos04/ejercicioCiclos04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/leccionClaseObjetos/ejercicioCiclos05/ejercicioCiclos05.iml" filepath="$PROJECT_DIR$/leccionClaseObjetos/ejercicioCiclos05/ejercicioCiclos05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicioCiclos01/ejercicioCiclos01.iml" filepath="$PROJECT_DIR$/ejercicioCiclos01/ejercicioCiclos01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicioCiclos02/ejercicioCiclos02.iml" filepath="$PROJECT_DIR$/ejercicioCiclos02/ejercicioCiclos02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicioCiclos03/ejercicioCiclos03.iml" filepath="$PROJECT_DIR$/ejercicioCiclos03/ejercicioCiclos03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicioCiclos04/ejercicioCiclos04.iml" filepath="$PROJECT_DIR$/ejercicioCiclos04/ejercicioCiclos04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicioCiclos05/ejercicioCiclos05.iml" filepath="$PROJECT_DIR$/ejercicioCiclos05/ejercicioCiclos05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicioCiclos06/ejercicioCiclos06.iml" filepath="$PROJECT_DIR$/ejercicioCiclos06/ejercicioCiclos06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicioCiclos07/ejercicioCiclos07.iml" filepath="$PROJECT_DIR$/ejercicioCiclos07/ejercicioCiclos07.iml" />
       <module fileurl="file://$PROJECT_DIR$/leccion01/leccion01.iml" filepath="$PROJECT_DIR$/leccion01/leccion01.iml" />
       <module fileurl="file://$PROJECT_DIR$/leccion02/leccion02.iml" filepath="$PROJECT_DIR$/leccion02/leccion02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/leccionClaseObjetos/leccionClaseObjetos.iml" filepath="$PROJECT_DIR$/leccionClaseObjetos/leccionClaseObjetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leccion03/leccion03.iml" filepath="$PROJECT_DIR$/leccion03/leccion03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leccion04/leccion04.iml" filepath="$PROJECT_DIR$/leccion04/leccion04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leccion03/leccionClaseObjetos/leccionClaseObjetos.iml" filepath="$PROJECT_DIR$/leccion03/leccionClaseObjetos/leccionClaseObjetos.iml" />
     </modules>
   </component>
 </project>
