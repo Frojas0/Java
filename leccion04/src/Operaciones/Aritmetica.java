@@ -4,12 +4,20 @@ package Operaciones;
 public class Aritmetica {
 
     //Los nombres de los atributos y metodos se escriben en cammelCase
-
     //Atributos de la clase
     int a;
     int b;
 
-
+    //El constructor es un metodo especial (construye un objeto, reserva memoria, inicializa los atributos)
+    public Aritmetica(){ //Constructor 1 vacio
+        System.out.println("Se esta ejecutando el constructor numero 1");
+    }
+    //Sobrecarga de constructores
+    public Aritmetica(int a, int b){ //Constructor 2
+        this.a = a; //variables locales
+        this.b = b; //memoria stack
+        System.out.println("Se esta ejecutando el constructor numero 2");
+    }
     //Metodo
     //El modificador de acceso "public" indica que es de acceso publico, "void" significa que no devolvera nada
     public void sumarNumeros() {

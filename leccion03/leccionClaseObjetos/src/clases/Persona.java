@@ -1,8 +1,8 @@
 package clases;
-public class persona { //La clase persona va a ser nuestra pantilla.
+public class Persona { //La clase persona va a ser nuestra pantilla.
     // Atributos de la clase (Caracteristicas)
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
 
     //Metodos de la clase (Acciones)
     public void obtenerInformacion(){
