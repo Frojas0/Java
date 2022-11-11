@@ -1,5 +1,6 @@
 package Operaciones;
 
+//Clase
 public class PruebaAritmetica {
     public static void main(String[] args) {
         int a = 10; //variables locales
@@ -24,10 +25,46 @@ public class PruebaAritmetica {
         Aritmetica aritmetica2 = new Aritmetica(5, 8);
         System.out.println("aritmetica2.a = " + aritmetica2.a);
         System.out.println("aritmetica2.b = " + aritmetica2.b);
-    }
 
+        //LLamamos al metodo creado en la clase secundaria
+        Persona persona = new Persona("Cristian", "Martinez");
+        System.out.println("persona = " + persona);
+        System.out.println("Persona nombre = " + persona.nombre);
+        System.out.println("Persona apellido = " + persona.apellido);
+    }
+    //Modularidad, creamos un nuevo metodo
     public static void miMetodo() {
         //int a = 10; //Una variable esta limitada
         System.out.println("Aqui hay otro metodo");
+    }
+}
+
+//Clase 2
+/*Solo puede haber una clase de tipo publica, al crear otra clase automaticamente se le asigna el modificador de acceso
+default o package, a esta clase solo se la puede acceder desde el mismo paquete
+ */
+class Persona{
+    //Atributos de la clase
+    //Atributos de la clase
+    String nombre;
+    String apellido;
+
+    //Metodo
+    Persona(String nombre, String apellido) { //Constructor
+        super(); //Llamada al constructor de la clase Padre object
+        //Imprimir imprimir = new Imprimir();
+        new Imprimir().imprimir(this);
+        this.nombre = nombre;
+        this.apellido = apellido;
+        System.out.println("Objeto persona usando this: " + this);
+    }
+class Imprimir{
+    public Imprimir(){
+        super(); //el constructor de la clase padre, para reservar memoria
+    }
+    public void imprimir(Persona persona){
+        System.out.println("Persona desde la clase imprimir: "+persona);
+        System.out.println("Impresion del objeto actual (this): "+this);
+        }
     }
 }
