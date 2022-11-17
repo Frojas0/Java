@@ -36,4 +36,13 @@ public class Persona {
     public void setEliminado(boolean eliminado) {
         this.eliminado = eliminado;
     }
+
+    //Metodo toString
+    public String toString(){ //Convierte en una cadena cada atributo
+        return "Persona \n  nombre: "+this.nombre+
+                "\n  sueldo: "+this.sueldo+
+                "\n  eliminado: "+this.eliminado+"";
+
+
+    }
 }
